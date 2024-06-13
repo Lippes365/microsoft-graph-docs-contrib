@@ -6,6 +6,10 @@ ms.localizationpriority: high
 ms.subservice: "exchange"
 ---
 
+> [!NOTE]
+> Application Access policy will be retired for Role Based Access Control for Applications.
+> For more information about Role Based Access Control for Applications, see the [Role Based Access Control for Applications in Exchange Online](/exchange/permissions-exo/application-rbac?preserve-view=true)
+
 # Limiting application permissions to specific Exchange Online mailboxes
 
 Administrators who want to limit app access to specific mailboxes can create an application access policy by using the **New-ApplicationAccessPolicy** PowerShell cmdlet. This article covers the basic steps to configure access control. These steps are specific to Exchange Online resources and do not apply to other Microsoft Graph workloads.
